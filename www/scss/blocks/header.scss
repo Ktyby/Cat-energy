@@ -1,8 +1,10 @@
 .header {
-    width: 280px;
     margin: 0 auto;
     
     &__top-panel {
+        width: 280px;
+        margin: 12px auto;
+
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -17,7 +19,7 @@
             width: 33px;
             height: 38px;
         }
-        &--logo-header {
+        &--logo_header {
             width: 101px;
             height: 18px;
         }
@@ -25,5 +27,5 @@
             width: 18px;
             height: 18px;
         }
-    }   
+    } 
 }

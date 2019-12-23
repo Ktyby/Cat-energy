@@ -1,0 +1,32 @@
+.preview {
+    background:  #65a93c url(/img/preview-background.jpg) no-repeat center top / cover;
+    position: relative;
+
+    &__wrapper {
+        width: 280px;
+        margin: 0 auto;
+    }
+
+    &__img {
+        position: absolute;
+        display: block;
+        top: 230px;
+        left: 20px;
+    }
+
+    &__link {
+        position: absolute;
+        top: 500px;
+        left: 20px;
+        display: block;
+        margin: 0 auto;
+        width: 280px;
+        padding: 11px 0px;
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        background-color: #68b738;
+        transition: .2s;
+    }
+}
