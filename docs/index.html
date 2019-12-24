@@ -10,27 +10,20 @@
 <body>
     
 <header class="header">
-    <ul class="header__top-panel">
-        <li class="header__item">
-            <a class="header__item--logo" href="#"><img src="img/logo.png" alt="Logotype"></a>
-        </li>
-        <li class="header__item">
-            <a class="header__item--logo_header" href="#"><img src="img/logo-header.png" alt="Text Logotype"></a>
-        </li>
-        <li class="header__item">
-            <a class="header__item--close" href="#"><img src="img/close.png" alt="Button close"></a>
-        </li>
-    </ul> 
+    <div class="header__top-panel">
+        <a class="header__link" href="#"><img class="header__logo" src="img/logo-mobile.svg" alt="Логотип"></a>
+        <img class="header__close" src="img/icon-close.svg" alt="Бургер меню">
+    </div>
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__item">
-                <a class="nav__item--first" href="#">Главная</a>
+                <a class="nav__item-link" href="#">Главная</a>
             </li>
             <li class="nav__item">
-                <a class="nav__item--second" href="#">Каталог продукции</a>
+                <a class="nav__item-link" href="#">Каталог продукции</a>
             </li>
             <li class="nav__item">
-                <a class="nav__item--third" href="#">подбор программы</a>
+                <a class="nav__item-link" href="#">подбор программы</a>
             </li>
         </ul>
     </nav>     
@@ -38,13 +31,11 @@
 
 <main>
     <section class="preview">
-        <div class="preview__wrapper">
-            <div class="preview-title">
-               <h1 class="preview-title--first">Функциональное питание для котиков</h1>
-               <h2 class="preview-title--second">Занялся Собой? Займись котом!</h2>
-           </div>
+        <div class="preview__title">
+           <h1 class="preview__title-text">Функциональное питание для котов</h1>
+           <p class="preview__title-text">Занялся Собой? Займись котом!</p>
         </div>
-        <img class="preview__img" src="img/index-product.png" alt="Mean"> 
+        <img class="preview__img" src="img/index-can-mobile@1x.png" srcset="img/index-can-mobile@1x.png 1x img/index-can-mobile@2x.png 2x" alt="Продукт"> 
         <a class="preview__link" href="#">Подобрать программу</a>
     </section>
 </main>
