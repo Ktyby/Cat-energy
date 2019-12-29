@@ -1,5 +1,5 @@
 .preview {
-    background:  #65a93c url(/img/index-background-mobile@1x.jpg) no-repeat center top / cover;
+    background:  #65a93c url("../img/index-background-mobile@1x.jpg") no-repeat center top / cover;
     position: relative;
 }
 
@@ -37,7 +37,7 @@
         (min-resolution: 1.5dppx) {
 
     .preview {
-        background: #65a93c url(/img/index-background-mobile@2x.jpg) no-repeat center top / cover;
+        background: #65a93c url("../img/index-background-mobile@2x.jpg") no-repeat center top / cover;
     }
 }
 
