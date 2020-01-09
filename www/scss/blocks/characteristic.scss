@@ -9,7 +9,7 @@
 
     color: #111111;
 
-    margin: 22px 0 38px 0;
+    margin: 24px 0 36px 0;
 }
 
 .characteristic__text {
@@ -26,7 +26,7 @@
 
     &--first {
         position: relative;
-        margin: 0;
+        margin: 2px 0 0 0;
     }
 
     &--first::before {
@@ -41,8 +41,9 @@
         background-color: #68b738;
     }
 
-    &--second::after {
-        content: url(../img/advantage-leaf@1x.png);
+    &--first::after {
+        content: "";
+        background: url(../img/advantage-leaf@1x.png);
         display: block;
         position: absolute;
         right: 225px;
@@ -54,7 +55,7 @@
 
     &--second {
         position: relative;
-        margin: 27px 0 0 0;
+        margin: 25px 0 0 0;
     }
 
     &--second::before {
@@ -70,7 +71,8 @@
     }
 
     &--second::after {
-        content: url(../img/advantage-powder@1x.png);
+        content: "";
+        background: url(../img/advantage-powder@1x.png);
         display: block;
         position: absolute;
         right: 225px;
@@ -98,7 +100,8 @@
     }
 
     &--third::after {
-        content: url(../img/advantage-dining@1x.png);
+        content: "";
+        background: url(../img/advantage-dining@1x.png);
         display: block;
         position: absolute;
         right: 227px;
@@ -110,7 +113,7 @@
 
     &--fourth {
         position: relative;
-        margin: 25px 0 0 0;
+        margin: 27px 0 0 0;
     }
 
     &--fourth::before {
@@ -126,7 +129,8 @@
     }
 
     &--fourth::after {
-        content: url(../img/advantage-clock@1x.png);
+        content: "";
+        background: url(../img/advantage-clock@1x.png);
         display: block;
         position: absolute;
         right: 225px;
@@ -143,19 +147,23 @@
     .characteristic__text {
         
         &--first::after {
-            content: url(../img/advantage-leaf@2x.png);
+            content: "";
+            background: url(../img/advantage-leaf@2x.png);
         }
 
         &--second::after {
-            content: url(../img/advantage-powder@2x.png);
+            content: "";
+            background: url(../img/advantage-powder@2x.png);
         }
 
         &--third::after {
-            content: url(../img/advantage-dining@2x.png);
+            content: "";
+            background: url(../img/advantage-dining@2x.png);
         }
 
         &--fourth::after {
-            content: url(../img/advantage-clock@2x.png);
+            content: "";
+            background: url(../img/advantage-clock@2x.png);
         }
     }
 }
