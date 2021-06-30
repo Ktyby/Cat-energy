@@ -1,0 +1,46 @@
+.button {
+	display: inline-block;
+	vertical-align: middle;
+	width: 280px;
+	margin: 0 auto;
+	padding: 11px 0;
+	border: none;
+	background-color: $green;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+
+	&:active {
+		color: rgba(255, 255, 255, 0.3);
+	}
+
+	&--grey {
+		background-color: #f2f2f2;
+		color: $light-grey;
+
+		&:hover,
+		&:focus {
+			background-color: #ebebeb;
+			color: $light-grey;
+		}
+
+		&:active {
+			background-color: #ebebeb;
+			color: rgba(68, 68, 68, 0.3);
+		}
+	}
+
+	&--green {
+		&:hover,
+		&:focus {
+			background-color: #5eaa2f;
+		}
+	}
+}
+
+@media screen and (min-width: $tablet) {
+	.button {
+		font-size: 16px;
+	}
+}
