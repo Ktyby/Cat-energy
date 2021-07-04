@@ -29,7 +29,7 @@
 	position: relative;
 
 	&--leaf {
-		margin: 2px 0 0 0;
+		margin: 0;
 	}
 
 	&--leaf::before {
@@ -44,7 +44,7 @@
 	}
 
 	&--powder {
-		margin: 25px 0 0 0;
+		margin: 27px 0 0 0;
 	}
 
 	&--powder::before {
@@ -74,7 +74,7 @@
 	}
 
 	&--watch {
-		margin: 27px 0 0 0;
+		margin: 25px 0 0 0;
 	}
 
 	&--watch::before {

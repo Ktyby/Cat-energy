@@ -1,29 +1,32 @@
 .header {
-    width: 280px;
-    margin: 0 auto;
+	width: 280px;
+	margin: 0 auto;
 }
 
 .header__top-panel {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
-    margin: 12px auto;
-    padding: 0;
-   
-    list-style: none;
+	height: 65px;
+
+	padding: 0;
+
+	list-style: none;
 }
 
 .header__link {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .header__logo {
-    width: 190px;
-    height: 38px;
+	width: 190px;
+	height: 38px;
 }
 
 .header__close {
-    width: 18px;
-    height: 18px;   
+	width: 18px;
+	height: 18px;
+
+	margin-right: 3px;
 }
